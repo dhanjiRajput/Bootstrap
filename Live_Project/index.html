@@ -25,7 +25,26 @@
                     alt="" height="30px">
             </div>
             <div class="col-5 d-flex justify-content-center align-items-center p-2">
-                <input type="search" id="nav_search" placeholder="Try Liquid Lipstick">
+                <input type="search" id="nav_search" placeholder="Try Liquid Lipstick" class="dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown-menu">
+                    <div id="dropdown-menu">
+                        <div>
+                            <h6 class="ms-3"><i class="fa-solid fa-repeat me-3"></i>FREQUENTLY SEARCHED</h6>
+                            <button type="button" class="btn btn-light ms-5">Gift Card</button>
+                            <button type="button" class="btn btn-light">Foundation</button>
+                            <button type="button" class="btn btn-light">Lipsticks</button>
+                            <button type="button" class="btn btn-light">La La Love</button>
+                            <button type="button" class="btn btn-light">Minis</button>
+                        </div>
+
+                        <div class="mt-2">
+                            <h6 class="ms-3"><i class="fa-solid fa-fire me-3"></i></i>HOT PICKS</h6>
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <button id="nav_btn"><i class="fa-solid fa-magnifying-glass me-2"></i>Search</button>
             </div>
             <div class="col-2  d-flex justify-content-center align-items-center p-2">
@@ -38,7 +57,44 @@
             </div>
         </div>
         <div class="bg-dark d-flex">
-            <div id="nav_link_div"><a href="" id="nav_link">LIPS</a></div>
+            <div id="nav_link_div" class="dropdown">
+                <a href="" id="nav_link" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">LIPS</a>
+                <div class="dropdown-menu">
+                    <div id="dropdown-menu" class="d-flex">
+                        <div class="me-1">
+                            <h6 class="ms-3">LIPSTICKS</h6>
+                            <ul type="disk">
+                                <li><a href="#" id="dropdown_link">TRANSFER PROOF LIPSTICK</a></li>
+                                <li><a href="#" id="dropdown_link">MATTE LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">LIQUID LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">CRAYON LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">POWDER LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">LIQUID LIPSTICKs</a></li>
+                                <li><a href="#" id="dropdown_link">SATIN LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">BULLET LIPSTICKS</a></li>
+                                <li><a href="#" id="dropdown_link">LIP GLOSS & LINERS</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="me-1">
+                            <h6 class="ms-3">LIP CARE</h6>
+                            <ul type="disk">
+                                <li><a href="#" id="dropdown_link">LIPSTICK FIXERS & REMOVERS</a></li>
+                                <li><a href="#" id="dropdown_link">LIP PRIMERS & SCRUBS</a></li>
+                                <li><a href="#" id="dropdown_link">LIP BALMS</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="me-1">
+                            <h6 class="ms-3">LIPSTICK SETS & COMBOS</h6>
+                            <ul type="disk">
+                                <li><a href="#" id="dropdown_link">LIPSTICK SETS</a></li>
+                                <li><a href="#" id="dropdown_link">LIPSTICK COMBOS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="nav_link_div"><a href="" id="nav_link">EYES</a></div>
             <div id="nav_link_div"><a href="" id="nav_link">FACE</a></div>
             <div id="nav_link_div"><a href="" id="nav_link">NAILS</a></div>

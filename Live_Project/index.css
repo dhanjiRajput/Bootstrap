@@ -65,3 +65,36 @@
   transform-origin: left;
   transform: scaleX(1);
 }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#nav_search:hover .dropdown-menu{
+    display: block;
+}
+
+#dropdown_link{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 14px;
+}
+
+#dropdown_link:hover{
+    color: black;
+}
+
+
+.dropdown-menu{ 
+    width: 550PX;
+}
+
+#dropdown-menu ul li{
+    color: darkgray;
+    font-size: 14px;
+}
+
+.dropdown-toggle::after
+{
+    display: none;
+}

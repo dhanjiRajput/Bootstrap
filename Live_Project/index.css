@@ -25,9 +25,7 @@
     background-color: white;
 }
 
-.img-fluid{
-    margin-top: 1px;
-}
+
 
 .col-2{
     color: white;
@@ -55,10 +53,10 @@
   background-color: #fd0000;
   bottom: 0;
   left: 0;
-  top: 22px;
+  top: 18px;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform .7s ease-in-out;
+  transition: transform .6s ease-in-out;
 }
 
 #nav_link:hover::before {
@@ -86,7 +84,7 @@
 
 
 .dropdown-menu{ 
-    width: 550PX;
+    width: 550px;
 }
 
 #dropdown-menu ul li{
@@ -97,4 +95,9 @@
 .dropdown-toggle::after
 {
     display: none;
+}
+
+#h6:hover{
+    color: #fd0000;
+    cursor: pointer;
 }

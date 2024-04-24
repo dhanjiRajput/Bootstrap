@@ -6,4 +6,92 @@
     position: absolute;
     top: 10px;
     z-index: 1;
+    top: 45%;
+}
+
+#s1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#s2{
+    color: white;
+}
+
+#input1{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button-71 {
+  color: #fff;
+ 
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+}
+
+#sub_sub_main{
+    width: fit-content;
+    padding: 18px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#main2{
+    background-color: darkgrey;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.fa-briefcase{
+    font-size: 35px;
+}
+
+.fa-building-user{
+    font-size: 35px;
+}
+
+.fa-arrows-to-dot{
+    font-size: 35px;
+}
+
+#depart{
+    font-size: 35px;
+}
+
+#main3_sub{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#about{
+    background-color:darkgray;
+    border-radius: 10px;
+    height:fit-content ;
+    width: fit-content;
+    color: blue;
+
+}
+
+#main4{
+    margin-top: 50px;
+}
+
+#read{
+    text-decoration: none;
 }

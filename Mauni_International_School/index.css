@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Color Variable For Mauni School */
+:root{
+    --mauni: #3b2e84;
+}
+
+#nav{
+    background-color: var(--mauni);
+}
+
+#nav_sub{
+    width: fit-content;
+}
+
+#nav_sub_sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_logo{
+    background-color: rgb(255, 246, 234);
+    width: fit-content;
+    border-style:double;
+    border-width: 5px;
+    border-color: var(--mauni);
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    border-top: none;
+}
+
+#go_up{
+    position: absolute;
+    top: 90%;
+    left: 92%;
+    background-color:var(--mauni);
+    position: fixed;
+    z-index: 2;
+}
+
